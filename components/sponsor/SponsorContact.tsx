@@ -24,16 +24,12 @@ export function SponsorContact() {
     setError('')
 
     try {
-      // Get reCAPTCHA token
-      const token = await (window as any).grecaptcha.execute('6LeSqJIpAAAAAHCvycHggB9fMrBC6KJ77meHbSzj', { action: 'sponsor_form' })
-      
       // Prepare email data
       const emailData = {
         sender: formData.email,
         content: formData.message,
         recipient: 'sponsorship@calhacks.io',
         subject: `Sponsorship Inquiry: ${formData.name} from ${formData.company}`,
-        token
       }
 
       // Send the form data
@@ -93,7 +89,7 @@ export function SponsorContact() {
               </svg>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Thank You!</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Your message has been sent successfully. We'll get back to you soon.
+                Your message has been sent successfully. We&apos;ll get back to you soon.
               </p>
             </div>
           ) : (

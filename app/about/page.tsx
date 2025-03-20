@@ -28,7 +28,7 @@ export default function AboutPage() {
                 About Us
               </h1>
               <p className="text-lg mb-4 text-gray-700 dark:text-gray-300">
-                We're a nonprofit organization composed of students passionate about
+                We&apos;re a nonprofit organization composed of students passionate about
                 fostering a culture of hacking, entrepreneurship, and social good
                 via the empowerment of technology.
               </p>
