@@ -51,7 +51,7 @@ export function Navbar() {
   }, [])
 
   return (
-    <nav className="relative w-full px-6 py-4 border-b border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900">
+    <nav className="relative w-full px-6 py-4 border-b border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/">
           <Image

@@ -14,13 +14,20 @@ export default function AboutPage() {
       <section className="relative py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-full md:w-1/2 relative rounded-2xl overflow-hidden shadow-xl">
+            <div className="w-full md:w-1/2 relative rounded-2xl overflow-hidden shadow-xl group">
               <Image 
                 src="/images/team.jpg" 
                 alt="Hackathons at Berkeley Team" 
                 width={800} 
                 height={600}
-                className="w-full h-auto"
+                className="w-full h-auto transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <Image 
+                src="/images/team-ghibli.png" 
+                alt="Hackathons at Berkeley Team - Ghibli Style" 
+                width={800} 
+                height={600}
+                className="w-full h-auto absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
               />
             </div>
             <div className="w-full md:w-1/2">

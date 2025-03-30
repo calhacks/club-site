@@ -16,7 +16,7 @@ export function SponsorHero() {
           Make Cal Hacks your event.
         </h1>
 
-        <div className="flex flex-row space-x-8">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-6 rounded-xl">
             <h4 className="text-xl font-bold text-primary mb-2">Establish your brand!</h4>
             <p className="text-gray-700 dark:text-gray-300">
@@ -50,10 +50,10 @@ export function SponsorHero() {
           <h4 className="text-xl font-bold text-primary mb-2">
             Ready to jump onboard? Email{' '}
             <a
-              href="mailto:team@calhacks.io"
+              href="mailto:sponsorship@hackberkeley.org"
               className="text-blue-600 dark:text-blue-400 hover:underline"
             >
-              team@calhacks.io
+              sponsorship@hackberkeley.org
             </a>
           </h4>
         </div>

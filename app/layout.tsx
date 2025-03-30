@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     description: "Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley, fostering a culture of hacking, entrepreneurship, and social good via the empowerment of technology.",
     images: ["https://calhacks-sierra.s3-us-west-2.amazonaws.com/assets/branding/og-image.jpg"],
   },
+  icons: {
+    icon: "/branding/baby-ddoski.svg",
+  },
   twitter: {
     card: "summary_large_image",
     site: "@calhacks",

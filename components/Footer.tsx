@@ -21,8 +21,8 @@ export function Footer() {
               </Link>
               <div className="text-center md:text-left">
                 <p className="text-3xl md:text-4xl font-bold">Hackathons @ Berkeley</p>
-                <p className="text-lg text-white/80 italic">Made with Love</p>
-                <div className="flex space-x-4 pt-4">
+                <p className="text-lg text-white/80 italic">Made with ❤️</p>
+                <div className="flex space-x-4 pt-4 justify-center md:justify-start">
                   <a href="https://www.instagram.com/calhacks/" target="_blank" rel="noopener noreferrer" className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-all hover:scale-110">
                     <FaInstagram size={20} className="text-white" />
                   </a>
