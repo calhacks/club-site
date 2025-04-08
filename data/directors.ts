@@ -190,7 +190,7 @@ export const directors: Director[] = [
     firstName: "Sam",
     lastName: "Poder",
     image: "/images/directors/sam-poder.jpg",
-    linkedin: "https://www.linkedin.com/in/sam-poder/"
+    linkedin: "https://sampoder.com/"
   },
   {
     firstName: "Shauna",
