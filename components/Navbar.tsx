@@ -15,10 +15,10 @@ const navigationLinks = {
   ],
   initiatives: [
     { href: 'http://cubstart.com', label: 'Cubstart' },
-    { href: 'https://ai.calhacks.io/', label: 'UC Berkeley AI Hackathon' },
+    { href: 'https://ai.hackberkeley.org/', label: 'UC Berkeley AI Hackathon' },
   ],
   featured: {
-    href: 'https://ai.calhacks.io/',
+    href: 'https://ai.hackberkeley.org/',
     label: 'AI Hackathon 2025'
   }
 }

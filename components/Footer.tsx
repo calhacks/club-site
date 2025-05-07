@@ -47,7 +47,7 @@ export function Footer() {
               <div className="flex flex-col space-y-3">
                 <Link href="/" className="hover:opacity-80 transition-all hover:translate-x-1">Home</Link>
                 <a href="http://cubstart.com" className="hover:opacity-80 transition-all hover:translate-x-1">Cubstart</a>
-                <a href="https://ai.calhacks.io/" className="hover:opacity-80 transition-all hover:translate-x-1">UC Berkeley AI Hackathon</a>
+                <a href="https://ai.hackberkeley.org/" className="hover:opacity-80 transition-all hover:translate-x-1">UC Berkeley AI Hackathon</a>
               </div>
               <div className="flex flex-col space-y-3">
                 <Link href="/sponsor" className="hover:opacity-80 transition-all hover:translate-x-1">Sponsor Us</Link>

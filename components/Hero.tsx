@@ -55,7 +55,7 @@ export function Hero() {
             Hackathons @ Berkeley is a team of students cultivating a platform where people can build, learn, and experiment
             without boundaries. We host Cal Hacks, our flagship hackathon, alongside other hackathons every year!
             <br /><br />
-            Our next event is <Link href="https://ai.calhacks.io/" className="font-bold hover:underline text-primary">UC Berkeley AI Hackathon 2025</Link>! Enter your email for more future updates.
+            Our next event is <Link href="https://ai.hackberkeley.org/" className="font-bold hover:underline text-primary">UC Berkeley AI Hackathon 2025</Link>! Enter your email for more future updates.
           </p>
 
           <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">

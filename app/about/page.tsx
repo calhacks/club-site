@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { directors } from '@/data/directors'
 import { useTheme } from 'next-themes';
 import { alum } from '@/data/alum'
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { FaLinkedin } from 'react-icons/fa'
 
 export default function AboutPage() {
   const { theme, setTheme } = useTheme()
@@ -59,25 +61,29 @@ export default function AboutPage() {
               
               return (
                 <div key={index} className="flex flex-col items-center">
-                  <div className="w-full aspect-square relative rounded-full overflow-hidden mb-3 border-2 border-primary/20">
-                    <Image src={director.image} alt={`${director.firstName} ${director.lastName}`} fill className="object-cover" />
-                  </div>
+                  <Avatar className="w-32 h-32 md:w-48 md:h-48 border-2 border-primary/20 mb-3">
+                    <AvatarImage src={director.image} alt={`${director.firstName} ${director.lastName}`} className="object-cover object-center" />
+                    <AvatarFallback className="text-2xl font-bold">{director.firstName[0]}{director.lastName[0]}</AvatarFallback>
+                  </Avatar>
                   <a 
                     href={director.linkedin} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className={`font-bold text-center text-gray-900 dark:text-white ${director.linkedin !== '#' ? 'hover:text-primary dark:hover:text-primary/90' : ''} transition-colors`}
+                    className={`font-bold text-center text-gray-900 dark:text-white ${director.linkedin !== '#' ? 'hover:text-primary dark:hover:text-primary/90' : ''} transition-colors flex items-center gap-1`}
                   >
                     {director.firstName} {director.lastName}
+                    {director.linkedin && director.linkedin !== '' && (
+                      <FaLinkedin className="text-[#0077b5] ml-1" />
+                    )}
                   </a>
                 </div>
               );
             })}
           </div>
           <div className="mt-16 text-center">
-            <p className="text-lg ">
+            <p className="text-lg text-gray-700 dark:text-gray-300">
               Have a question for us? Email{' '}
-              <a href="mailto:team@calhacks.io">team@calhacks.io</a>
+              <a href="mailto:team@calhacks.io" className="text-primary dark:text-primary/90">team@calhacks.io</a>
             </p>
           </div>
         </div>

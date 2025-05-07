@@ -29,19 +29,6 @@ export const events: Event[] = [
     }))
   },
   {
-    id: "calhacks-ai-2",
-    name: "AI Hackathon 2.0",
-    description: "Our AI hackathon hosted in Berkeley",
-    date: "June 22, 2024",
-    photos: Array.from({ length: 12 }, (_, i) => ({
-      id: `calhacks-ai-2-${i + 1}`,
-      src: `/images/events/calhacksai2-${i + 1}.jpg`,
-      alt: `Cal Hacks AI 2.0 - Photo ${i + 1}`,
-      width: 1200,
-      height: 800
-    }))
-  },
-  {
     id: "calhacks-10",
     name: "Cal Hacks 10.0",
     description: "Our flagship hackathon hosted in San Francisco",
@@ -50,6 +37,19 @@ export const events: Event[] = [
       id: `calhacks-10-${i + 1}`,
       src: `/images/events/calhacks10-${i + 1}.jpg`,
       alt: `Cal Hacks 10.0 - Photo ${i + 1}`,
+      width: 1200,
+      height: 800
+    }))
+  },
+  {
+    id: "calhacks-ai-2",
+    name: "AI Hackathon 2.0",
+    description: "Our AI hackathon hosted in Berkeley",
+    date: "June 22, 2023",
+    photos: Array.from({ length: 12 }, (_, i) => ({
+      id: `calhacks-ai-2-${i + 1}`,
+      src: `/images/events/calhacksai2-${i + 1}.jpg`,
+      alt: `Cal Hacks AI 2.0 - Photo ${i + 1}`,
       width: 1200,
       height: 800
     }))

@@ -19,12 +19,6 @@ export const directors: Director[] = [
     linkedin: "https://www.linkedin.com/in/abho1628/"
   },
   {
-    firstName: "Arhum",
-    lastName: "Khan",
-    image: "/images/directors/arhum.jpeg",
-    linkedin: ""
-  },
-  {
     firstName: "Charlie",
     lastName: "Huang",
     image: "/images/directors/charlie.jpg",
@@ -93,7 +87,7 @@ export const directors: Director[] = [
   {
     firstName: "Jin",
     lastName: "Lee",
-    image: "/images/directors/jin-lee.jpg",
+    image: "/images/directors/jin.jpg",
     linkedin: "https://www.linkedin.com/in/jinyl/"
   },
   {
@@ -113,12 +107,6 @@ export const directors: Director[] = [
     lastName: "Son",
     image: "/images/directors/kaylene.jpg",
     linkedin: "https://www.linkedin.com/in/kaylene-son/"
-  },
-  {
-    firstName: "Kedaar",
-    lastName: "Rentachintala",
-    image: "/images/directors/kedaar.jpg",
-    linkedin: "https://www.linkedin.com/in/kedaarr"
   },
   {
     firstName: "Kenny",
@@ -159,7 +147,7 @@ export const directors: Director[] = [
   {
     firstName: "Nicole",
     lastName: "Lee",
-    image: "/images/directors/nicole-lee2.jpg",
+    image: "/images/directors/nicole-sophomore.jpg",
     linkedin: "https://www.linkedin.com/in/nicolelee7887"
   },
   {
@@ -184,17 +172,17 @@ export const directors: Director[] = [
     firstName: "Sam",
     lastName: "Nesheiwat",
     image: "/images/directors/sam-nesheiwat.jpg",
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/samantha-nesheiwat-9b0493298/"
   },
   {
     firstName: "Sam",
     lastName: "Poder",
     image: "/images/directors/sam-poder.jpg",
-    linkedin: "https://sampoder.com/"
+    linkedin: "https://www.linkedin.com/in/sam-poder/"
   },
   {
     firstName: "Shauna",
-    lastName: "Seoyoun Hong",
+    lastName: "Hong",
     image: "/images/directors/shauna.JPG",
     linkedin: "https://linkedin.com/in/shauna-seoyoun-hong"
   },
