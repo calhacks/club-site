@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/slack",
+      "destination": "https://join.slack.com/t/aihackathon2025/shared_invite/zt-369pvcuza-5pb5K~sHwfmQPLCzgEAKsg",
+      "permanent": false
+    }
+  ]
+}
