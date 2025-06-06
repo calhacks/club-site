@@ -3,13 +3,13 @@ import { FaUsers, FaClock, FaLaptopCode, FaUniversity } from 'react-icons/fa'
 
 export function SponsorStats() {
   return (
-    <section id="sponsor-content" className="py-16">
+    <section id="sponsor-content" className="py-4">
 
       <h2 className="text-4xl font-bold font-heading text-center mb-16 text-gray-900 dark:text-white">
         Be a part of...
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+      <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
         <div className="flex flex-col items-center">
           <div className="text-center">
             <p className="text-3xl font-bold text-primary">2,000+</p>
