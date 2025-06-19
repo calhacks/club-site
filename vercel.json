@@ -4,6 +4,11 @@
       "source": "/slack",
       "destination": "https://join.slack.com/t/aihackathon2025/shared_invite/zt-369pvcuza-5pb5K~sHwfmQPLCzgEAKsg",
       "permanent": false
+    },
+    {
+      "source": "/nn2025",
+      "destination": "https://gist.github.com/sampoder/ba9467a7cecae7b322124a0ac3f28d7d",
+      "permanent": false
     }
   ]
 }
