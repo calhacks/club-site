@@ -14,6 +14,11 @@
       "source": "/judge",
       "destination": "https://forms.gle/cHHNZj6zeDrAMYuRA",
       "permanent": false
+    },
+    {
+      "source": "/vote",
+      "destination": "https://forms.gle/iC5FexnJjoYckjEE6",
+      "permanent": false
     }
   ]
 }
