@@ -55,10 +55,10 @@ export function Hero() {
             Hackathons @ Berkeley is a team of students cultivating a platform where people can build, learn, and experiment
             without boundaries. We host Cal Hacks, our flagship hackathon, alongside other hackathons every year!
             <br /><br />
-            Our next event is <Link href="https://ai.hackberkeley.org/" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>! Enter your email for more future updates.
+            Our next event is <Link href="https://calhacks.io" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>! Enter your email on the website to get updates.
           </p>
 
-          <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">
+          {/* <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">
             <div className="flex gap-2">
               <input
                 type="email"
@@ -75,7 +75,7 @@ export function Hero() {
                 Submit
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>
