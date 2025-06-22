@@ -15,7 +15,7 @@ const initiatives: Initiative[] = [
     name: "Cal Hacks",
     description: "Cal Hacks, our flagship hackathon hosted in San Francisco, is where the technology of the future is born.",
     image: "/images/initiatives/calhacks11.jpeg",
-    link: "https://apply.calhacks.io"
+    link: "https://calhacks.io"
   },
   {
     name: "UC Berkeley AI Hackathon",
