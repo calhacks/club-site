@@ -14,7 +14,7 @@ export function Hero() {
     e.preventDefault()
     try {
       const supabase = createClient()
-      const { data, error } = await supabase.from('club-site-interest-form').insert({ email })
+      const { data, error } = await supabase.from('calhacks-12.0-interest-form').insert({ email })
       if (error) {
         console.error('Error submitting form:', error)
         toast.error('Error submitting form')
@@ -41,7 +41,7 @@ export function Hero() {
             height={500}
             className="dark:brightness-110 dark:contrast-105"
           />
-          
+
           {/* Floating sprites */}
           <FloatingSpritesContainer containerWidth={400} baseScale={0.4} count={2} />
         </div>
@@ -55,10 +55,12 @@ export function Hero() {
             Hackathons @ Berkeley is a team of students cultivating a platform where people can build, learn, and experiment
             without boundaries. We host Cal Hacks, our flagship hackathon, alongside other hackathons every year!
             <br /><br />
-            Our next event is <Link href="https://calhacks.io" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>! Enter your email on the website to get updates.
+            Our next event is <Link href="https://calhacks.io" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>,
+            happening <span className="font-bold">October 24-26, 2025</span> in <span className="font-bold">San Francisco</span>!
+            Enter your email to get updates.
           </p>
 
-          {/* <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">
+          <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">
             <div className="flex gap-2">
               <input
                 type="email"
@@ -75,7 +77,7 @@ export function Hero() {
                 Submit
               </button>
             </div>
-          </form> */}
+          </form>
         </div>
       </div>
     </div>
