@@ -55,10 +55,10 @@ export function SponsorHero() {
           <h4 className="text-lg sm:text-xl font-bold text-primary">
             Ready to jump onboard? Email{' '}
             <a
-              href="mailto:sponsorship@calhacks.io"
+              href="mailto:sponsorship@hackberkeley.org"
               className="text-blue-600 dark:text-blue-400 hover:underline break-all sm:break-normal"
             >
-              sponsorship@calhacks.io
+              sponsorship@hackberkeley.org
             </a>
           </h4>
         </div>

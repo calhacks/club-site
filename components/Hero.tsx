@@ -57,7 +57,7 @@ export function Hero() {
             <br /><br />
             Our next event is <Link href="https://calhacks.io" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>,
             happening <span className="font-bold">October 24-26, 2025</span> in <span className="font-bold">San Francisco</span>!
-            Enter your email to get updates.
+            Enter your email to get updates. Interested in sponsoring? Learn more <Link href="/sponsor" className="font-bold hover:underline text-primary">here</Link>.
           </p>
 
           <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">
