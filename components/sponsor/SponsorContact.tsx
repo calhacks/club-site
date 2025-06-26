@@ -28,7 +28,7 @@ export function SponsorContact() {
       const emailData = {
         sender: formData.email,
         content: formData.message,
-        recipient: 'sponsorship@calhacks.io',
+        recipient: 'sponsorship@hackberkeley.org',
         subject: `Sponsorship Inquiry: ${formData.name} from ${formData.company}`,
       }
 
