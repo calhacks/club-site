@@ -5,8 +5,10 @@ import Logo from "@/assets/images/logo.png";
 import { motion } from "motion/react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
+	const router = useRouter();
 	return (
 		<>
 			<motion.nav
@@ -22,7 +24,8 @@ export default function Navbar() {
 				<Image
 					alt="Hackathons @ Berkeley Logo"
 					src={Logo}
-					className="aspect-auto w-[150px] px-8 py-4"
+					className="aspect-auto w-[150px] px-8 py-4 cursor-pointer"
+					onClick={() => router.push("/")}
 				/>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -45,6 +48,7 @@ export default function Navbar() {
 					alt="Hackathons @ Berkeley Logo"
 					src={Logo}
 					className="aspect-auto w-[100px] xs:w-[130px] sm:w-[150px] px-4 xs:px-6 sm:px-8 py-3 sm:py-4"
+					onClick={() => router.push("/")}
 				/>
 
 				<div className="pr-3 xs:pr-4 sm:pr-8">
