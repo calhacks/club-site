@@ -6,9 +6,11 @@ import { createClient } from '@/utils/supabase/client'
 import { toast } from "sonner"
 import { FloatingSpritesContainer } from './FloatingSpritesContainer'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 
 export function Hero() {
   const [email, setEmail] = useState('')
+  const router = useRouter()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -55,7 +57,7 @@ export function Hero() {
             Hackathons @ Berkeley is a team of students cultivating a platform where people can build, learn, and experiment
             without boundaries. We host Cal Hacks, our flagship hackathon, alongside other hackathons every year!
             <br /><br />
-            Our next event is <Link href="https://calhacks.io" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>,
+            Our next event is <Link href="/event" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>,
             happening <span className="font-bold">October 24-26, 2025</span> in <span className="font-bold">San Francisco</span>!
             Enter your email to get updates. Interested in sponsoring? Learn more <Link href="/sponsor" className="font-bold hover:underline text-primary">here</Link>.
           </p>

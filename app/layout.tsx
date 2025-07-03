@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Space_Grotesk, Space_Mono, Karla, Inter } from "next/font/google";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import Script from "next/script";
 import { Toaster } from "@/components/ui/sonner";
 
 const inter = Inter({
@@ -50,7 +47,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -70,12 +66,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="min-h-screen">
-            <Navbar />
-            <div className="max-w-screen-xl mx-auto">
-              {children}
-            </div>
+            {children}
             <Toaster />
-            <Footer />
           </div>
         </ThemeProvider>
       </body>

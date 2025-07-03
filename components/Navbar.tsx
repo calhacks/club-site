@@ -18,8 +18,8 @@ const navigationLinks = {
     { href: 'https://ai.hackberkeley.org/', label: 'UC Berkeley AI Hackathon' },
   ],
   featured: {
-    href: 'https://ai.hackberkeley.org/',
-    label: 'AI Hackathon 2025'
+    href: '/event',
+    label: 'Cal Hacks 12.0'
   }
 }
 
