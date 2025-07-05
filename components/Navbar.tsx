@@ -134,7 +134,7 @@ export function Navbar() {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary/90 transition-colors duration-200"
+          className="md:hidden text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary/90 transition-colors duration-200 mr-24"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
