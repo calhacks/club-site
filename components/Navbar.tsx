@@ -64,7 +64,7 @@ export function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center justify-between flex-1 pl-12 pr-24">
+        <div className="hidden md:flex items-center justify-between flex-1 pl-12 pr-36">
           {/* Left side navigation */}
           <div className="flex space-x-10">
             {navigationLinks.main.map((item) => (
@@ -134,7 +134,7 @@ export function Navbar() {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary/90 transition-colors duration-200 mr-24"
+          className="md:hidden text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary/90 transition-colors duration-200 mr-36"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
