@@ -64,7 +64,7 @@ export function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center justify-between flex-1 pl-12">
+        <div className="hidden md:flex items-center justify-between flex-1 pl-12 pr-24">
           {/* Left side navigation */}
           <div className="flex space-x-10">
             {navigationLinks.main.map((item) => (
