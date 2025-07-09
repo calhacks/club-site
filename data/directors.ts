@@ -55,12 +55,6 @@ export const directors: Director[] = [
     linkedin: "https://www.linkedin.com/in/diya-vij-916a30167/"
   },
   {
-    firstName: "Dylan",
-    lastName: "Chhum",
-    image: "/images/directors/dylan.jpg",
-    linkedin: "https://www.linkedin.com/in/chhum/"
-  },
-  {
     firstName: "Elisa",
     lastName: "Kong",
     image: "/images/directors/elisa.png",
