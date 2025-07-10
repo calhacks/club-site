@@ -59,7 +59,7 @@ export function Hero() {
             <br /><br />
             Our next event is <Link href="/event" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>,
             happening <span className="font-bold">October 24-26, 2025</span> in <span className="font-bold">San Francisco</span>!
-            Enter your email to get updates. Interested in sponsoring? Learn more <Link href="/sponsor" className="font-bold hover:underline text-primary">here</Link>.
+            Enter your email to get updates.
           </p>
 
           <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">
@@ -80,6 +80,10 @@ export function Hero() {
               </button>
             </div>
           </form>
+
+          <p className="text-lg mt-4 leading-6 text-gray-600 dark:text-gray-300">
+            Interested in sponsoring? Learn more <Link href="/sponsor" className="font-bold hover:underline text-primary">here</Link>.
+          </p>
         </div>
       </div>
     </div>
