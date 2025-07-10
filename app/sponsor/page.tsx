@@ -17,9 +17,9 @@ export default function Sponsor() {
       <main>
         <SponsorHero />
         <SponsorStats />
+        <SponsorContact />
         <SponsorPast />
         <SponsorTestimonials />
-        <SponsorContact />
       </main>
     </DefaultLayout>
   );
