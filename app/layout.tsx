@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hackathons at Berkeley",
     description: "Cal Hacks is the world's largest collegiate hackathon hosted at UC Berkeley, fostering a culture of hacking, entrepreneurship, and social good via the empowerment of technology.",
-    images: ["https://calhacks-sierra.s3-us-west-2.amazonaws.com/assets/branding/og-image.jpg"],
+    images: ["https://hackberkeley.org/og.png"],
   },
   icons: {
     icon: "/branding/baby-ddoski.svg",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@calhacks",
     creator: "@calhacks",
-    images: ["https://calhacks-sierra.s3-us-west-2.amazonaws.com/assets/branding/og-image.jpg"],
+    images: ["https://hackberkeley.org/og.png"],
   },
 };
 
