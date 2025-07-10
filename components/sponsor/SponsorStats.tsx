@@ -19,21 +19,21 @@ export function SponsorStats() {
 
         <div className="flex flex-col items-center">
           <div className="text-center">
-            <p className="text-3xl font-bold text-primary">36</p>
+            <p className="text-3xl font-bold text-primary">48+</p>
             <p className="text-lg text-gray-600 dark:text-gray-300">Hours</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center">
           <div className="text-center">
-            <p className="text-3xl font-bold text-primary">300+</p>
+            <p className="text-3xl font-bold text-primary">400+</p>
             <p className="text-lg text-gray-600 dark:text-gray-300">Projects</p>
           </div>
         </div>
 
         <div className="flex flex-col items-center">
           <div className="text-center">
-            <p className="text-3xl font-bold text-primary">50+</p>
+            <p className="text-3xl font-bold text-primary">250+</p>
             <p className="text-lg text-gray-600 dark:text-gray-300">Schools</p>
           </div>
         </div>
