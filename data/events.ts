@@ -16,6 +16,19 @@ export interface Photo {
 
 export const events: Event[] = [
   {
+    id: "calhacks-ai-2025",
+    name: "AI Hackathon 2025",
+    description: "Our third AI hackathon hosted in Berkeley",
+    date: "June 21, 2025",
+    photos: Array.from({ length: 8 }, (_, i) => ({
+      id: `calhacksai2025-${i}.jpg`,
+      src: `/images/events/calhacksai2025-${i}.jpg`,
+      alt: `Cal Hacks AI 2025 - Photo ${i + 1}`,
+      width: 1200,
+      height: 800
+    }))
+  },
+  {
     id: "calhacks-11",
     name: "Cal Hacks 11.0",
     description: "Our flagship hackathon hosted in San Francisco",
