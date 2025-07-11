@@ -46,7 +46,7 @@ export function SponsorTestimonials() {
                 src="/images/events/calhacks11-5.jpg"
                 alt="Cal Hacks event"
                 width={300}
-                height={300}
+                height={500}
                 className="w-full h-full object-cover"
               />
             </div>
