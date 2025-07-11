@@ -22,7 +22,7 @@ export const events: Event[] = [
     date: "June 21, 2025",
     photos: Array.from({ length: 8 }, (_, i) => ({
       id: `calhacksai2025-${7 - i}.jpg`,
-      src: `/images/events/calhacksai2025-${i}.jpg`,
+      src: `/images/events/calhacksai2025-${7 - i}.jpg`,
       alt: `Cal Hacks AI 2025 - Photo ${i + 1}`,
       width: 1200,
       height: 800
