@@ -28,7 +28,7 @@ export function SponsorTestimonials() {
                 operations allowed us to focus entirely on meaningful engagement. 
               </p>
               <p className="text-gray-700 dark:text-gray-300 italic mb-4">
-                I wholeheartedly recommend Berkeley AI Hackathon as a premier sponsorship opportunity. This event 
+                I wholeheartedly recommend the UC Berkeley AI Hackathon as a premier sponsorship opportunity. This event 
                 delivers measurable business value while supporting exceptional AI talent.
                 &quot;
               </p>
