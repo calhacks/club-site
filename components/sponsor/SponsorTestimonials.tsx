@@ -13,7 +13,7 @@ export function SponsorTestimonials() {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/3">
               <Image
-                src="https://calhacks-sierra.s3-us-west-2.amazonaws.com/assets/images/cal_hacks_1.jpg"
+                src="/images/events/calhacksai2-4.jpg"
                 alt="Cal Hacks event"
                 width={300}
                 height={300}
@@ -43,7 +43,7 @@ export function SponsorTestimonials() {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/3">
               <Image
-                src="https://calhacks-sierra.s3-us-west-2.amazonaws.com/assets/images/cal_hacks_2.jpg"
+                src="/images/events/calhacks11-5.jpg"
                 alt="Cal Hacks event"
                 width={300}
                 height={300}
