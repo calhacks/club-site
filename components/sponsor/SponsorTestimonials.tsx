@@ -52,12 +52,13 @@ export function SponsorTestimonials() {
             </div>
             <div className="p-6 md:w-2/3">
               <p className="text-gray-700 dark:text-gray-300 italic mb-4">
-                &quot;Cal Hacks 6.0 blew me away... We were astounded by both the
-                creativity and resolve demonstrated at Cal Hacks. We wish we could
-                have given all of our integrations an award.&quot;
+                &quot;Cal Hacks attracts hackers and as a loyal sponsor since Cal Hacks 2.0, I would not miss this 
+                event in the world to attract and recruit talents and put any of my companies’ technology to its 
+                critical tests for hackers to break them. Imagine the amount of money you can save from your 
+                engineering cost. Do not miss this event!” Top-talent future leaders and unicorns.&quot;
               </p>
               <p className="text-gray-600 dark:text-gray-400 font-bold">
-                — DocuSign
+                — Zepp Health, long-time sponsor
               </p>
             </div>
           </div>
