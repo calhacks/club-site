@@ -22,14 +22,18 @@ export function SponsorTestimonials() {
             </div>
             <div className="p-6 md:w-2/3">
               <p className="text-gray-700 dark:text-gray-300 italic mb-4">
-                &quot;Our booth was swarmed with students interested in both full-time
-                and internship opportunities... We ran out of nearly all the swag
-                we brought with us ... even my stack of business cards... As a
-                recruiter, this was a dream opportunity: getting to chat with
-                hundreds of energetic, passionate students...&quot;
+                &quot;The UC Berkeley AI Hackathon 2025 exceeded all expectations and stands out as one of the most
+                professionally organized events we’ve sponsored. From pre-event coordination to on-site support, every 
+                detail was thoughtfully managed. The high-caliber students built sophisticated projects, and the seamless 
+                operations allowed us to focus entirely on meaningful engagement. 
+              </p>
+              <p className="text-gray-700 dark:text-gray-300 italic mb-4">
+                I wholeheartedly recommend Berkeley AI Hackathon as a premier sponsorship opportunity. This event 
+                delivers measurable business value while supporting exceptional AI talent.
+                &quot;
               </p>
               <p className="text-gray-600 dark:text-gray-400 font-bold">
-                — rideOS
+                — Vapi, 3x sponsor
               </p>
             </div>
           </div>
