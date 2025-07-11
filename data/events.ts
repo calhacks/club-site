@@ -21,7 +21,7 @@ export const events: Event[] = [
     description: "Our third AI hackathon hosted in Berkeley",
     date: "June 21, 2025",
     photos: Array.from({ length: 8 }, (_, i) => ({
-      id: `calhacksai2025-${i}.jpg`,
+      id: `calhacksai2025-${7 - i}.jpg`,
       src: `/images/events/calhacksai2025-${i}.jpg`,
       alt: `Cal Hacks AI 2025 - Photo ${i + 1}`,
       width: 1200,
