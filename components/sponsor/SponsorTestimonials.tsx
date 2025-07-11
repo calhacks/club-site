@@ -15,8 +15,8 @@ export function SponsorTestimonials() {
               <Image
                 src="/images/events/calhacksai2-4.jpg"
                 alt="Cal Hacks event"
-                width={300}
-                height={300}
+                width={900}
+                height={900}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -39,14 +39,14 @@ export function SponsorTestimonials() {
           </div>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden">
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden flex">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/3">
               <Image
                 src="/images/events/calhacks11-5.jpg"
                 alt="Cal Hacks event"
-                width={300}
-                height={500}
+                width={900}
+                height={900}
                 className="w-full h-full object-cover"
               />
             </div>
