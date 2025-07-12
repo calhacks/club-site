@@ -1,16 +1,18 @@
+import ContactUs from "@/components/ContactUs";
 import DefaultLayout from "./default-layout";
 import { Hero } from "@/components/Hero";
 import { Initiatives } from "@/components/Initiatives";
 import { PhotoGallery } from "@/components/PhotoGallery";
 
 export default function Home() {
-  return (
-    <DefaultLayout>
-      <main>
-        <Hero />
-        <Initiatives />
-        <PhotoGallery />
-      </main>
-    </DefaultLayout>
-  );
+    return (
+        <DefaultLayout>
+            <main>
+                <Hero />
+                <Initiatives />
+                <PhotoGallery />
+                <ContactUs />
+            </main>
+        </DefaultLayout>
+    );
 }

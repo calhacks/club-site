@@ -68,10 +68,10 @@ export function SponsorContact() {
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12">
           Interested in sponsoring Cal Hacks? Fill out the form below or email us directly at{' '}
           <a 
-            href="mailto:team@hackberkeley.org" 
+            href="mailto:sponsorship@hackberkeley.org" 
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
-            team@hackberkeley.org
+            sponsorship@hackberkeley.org
           </a>
         </p>
         

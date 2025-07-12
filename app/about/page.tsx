@@ -87,7 +87,7 @@ export default function About() {
             <div className="mt-16 text-center">
               <p className="text-lg text-gray-700 dark:text-gray-300">
                 Have a question for us? Email{' '}
-                <a href="mailto:team@hackberkeley.org" className="text-primary dark:text-primary/90">team@hackberkeley.org</a>
+                <a href="mailto:sponsorship@hackberkeley.org" className="text-primary dark:text-primary/90">team@hackberkeley.org</a>
               </p>
             </div>
           </div>

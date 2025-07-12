@@ -58,7 +58,7 @@ export function SponsorTestimonials() {
                 engineering cost. Do not miss this event!” Top-talent future leaders and unicorns.&quot;
               </p>
               <p className="text-gray-600 dark:text-gray-400 font-bold">
-                — Zepp Health, long-time sponsor
+                — Zepp Health, 9x sponsor
               </p>
             </div>
           </div>

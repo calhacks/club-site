@@ -1,9 +1,7 @@
 import DefaultLayout from "../default-layout";
 import { SponsorHero } from "@/components/sponsor/SponsorHero";
-import { SponsorStats } from "@/components/sponsor/SponsorStats";
 import { SponsorPast } from "@/components/sponsor/SponsorPast";
 import { SponsorTestimonials } from "@/components/sponsor/SponsorTestimonials";
-import { SponsorContact } from "@/components/sponsor/SponsorContact";
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -16,10 +14,8 @@ export default function Sponsor() {
     <DefaultLayout>
       <main>
         <SponsorHero />
-        <SponsorStats />
-        <SponsorContact />
-        <SponsorPast />
         <SponsorTestimonials />
+        <SponsorPast />
       </main>
     </DefaultLayout>
   );
