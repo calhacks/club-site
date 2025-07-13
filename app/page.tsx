@@ -1,4 +1,3 @@
-import ContactUs from "@/components/ContactUs";
 import DefaultLayout from "./default-layout";
 import { Hero } from "@/components/Hero";
 import { Initiatives } from "@/components/Initiatives";
@@ -11,7 +10,6 @@ export default function Home() {
                 <Hero />
                 <Initiatives />
                 <PhotoGallery />
-                <ContactUs />
             </main>
         </DefaultLayout>
     );
