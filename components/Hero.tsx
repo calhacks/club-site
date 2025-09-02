@@ -64,9 +64,9 @@ export function Hero() {
                         <div className="flex gap-2">
                             <a
                                 href="https://apply.calhacks.io"
-                                className="px-6 py-2 bg-primary dark:bg-primary/90 text-white rounded-lg hover:bg-primary/80 dark:hover:bg-primary/70 transition-colors"
+                                className="px-6 py-2 font-bold bg-primary dark:bg-primary/90 text-white rounded-lg hover:bg-primary/80 dark:hover:bg-primary/70 transition-colors"
                             >
-                                Apply
+                                Apply (priority until Sep. 23rd)
                             </a>
                             <a
                                 href="https://calhacks.io"
