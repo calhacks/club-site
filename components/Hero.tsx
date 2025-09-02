@@ -57,27 +57,25 @@ export function Hero() {
                         <br /><br />
                         Our next event is <Link href="/event" className="font-bold hover:underline text-primary">Cal Hacks 12.0</Link>,
                         happening <span className="font-bold">October 24-26, 2025</span> in <span className="font-bold">San Francisco</span>!
-                        Enter your email to get updates.
+                        Applications are open.
                     </p>
 
-                    <form onSubmit={handleSubmit} className="max-w-md mx-auto md:mx-0">
+                    <div className="max-w-md mx-auto md:mx-0">
                         <div className="flex gap-2">
-                            <input
-                                type="email"
-                                placeholder="ddoski@berkeley.edu"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                                required
-                                className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-primary/90 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400"
-                            />
-                            <button
-                                type="submit"
+                            <a
+                                href="https://apply.calhacks.io"
                                 className="px-6 py-2 bg-primary dark:bg-primary/90 text-white rounded-lg hover:bg-primary/80 dark:hover:bg-primary/70 transition-colors"
                             >
-                                Submit
-                            </button>
+                                Apply
+                            </a>
+                            <a
+                                href="https://calhacks.io"
+                                className="px-6 py-2 bg-primary dark:bg-primary/90 text-white rounded-lg hover:bg-primary/80 dark:hover:bg-primary/70 transition-colors"
+                            >
+                                Learn more
+                            </a>
                         </div>
-                    </form>
+                    </div>
 
                     <p className="text-lg mt-4 leading-6 text-gray-600 dark:text-gray-300">
                         Interested in sponsoring? Learn more <Link href="/sponsor" className="font-bold hover:underline text-primary">here</Link>.
