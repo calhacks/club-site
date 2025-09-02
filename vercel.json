@@ -19,6 +19,11 @@
       "source": "/vote",
       "destination": "https://forms.gle/iC5FexnJjoYckjEE6",
       "permanent": false
+    },
+    {
+      "source": "/event",
+      "destination": "https://calhacks.io",
+      "permanent": false
     }
   ]
 }
