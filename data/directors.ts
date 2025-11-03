@@ -9,193 +9,271 @@ export const directors: Director[] = [
   {
     firstName: "Allison",
     lastName: "Wang",
-    image: "/images/directors/allison.jpg",
-    linkedin: "https://www.linkedin.com/in/allisonwang1624/"
-  },
-  {
-    firstName: "Anthony",
-    lastName: "Ho",
-    image: "/images/directors/anthony.jpg",
-    linkedin: "https://www.linkedin.com/in/abho1628/"
+    image: "/images/directors/allison.jpeg",
+    linkedin: "https://www.linkedin.com/in/allisonwang1624/",
   },
   {
     firstName: "Charlie",
     lastName: "Huang",
-    image: "/images/directors/charlie.jpg",
-    linkedin: "https://www.linkedin.com/in/huangzcharlie"
+    image: "/images/directors/charlie.jpeg",
+    linkedin: "https://www.linkedin.com/in/huangzcharlie",
   },
   {
     firstName: "Christopher",
     lastName: "Blu Lopez",
-    image: "/images/directors/chris.jpg",
-    linkedin: "https://www.linkedin.com/in/christopher-blu-lopez/"
+    image: "/images/directors/chris.jpeg",
+    linkedin: "https://www.linkedin.com/in/christopher-blu-lopez/",
   },
   {
     firstName: "Christy",
     lastName: "Huang",
-    image: "/images/directors/christy.jpg",
-    linkedin: "https://www.linkedin.com/in/christy-h-ab2106186/"
+    image: "/images/directors/christy.jpeg",
+    linkedin: "https://www.linkedin.com/in/christy-h-ab2106186/",
+  },
+  {
+    firstName: "Collin",
+    lastName: "Hargreaves",
+    image: "/images/directors/collin.jpeg",
+    linkedin: "https://www.linkedin.com/in/collinj-hargreaves/",
   },
   {
     firstName: "Corey",
     lastName: "Mostero",
-    image: "/images/directors/corey.jpg",
-    linkedin: "https://www.linkedin.com/in/corey-mostero-1836b1294/"
+    image: "/images/directors/corey.jpeg",
+    linkedin: "https://www.linkedin.com/in/mostero/",
   },
   {
     firstName: "Darren",
     lastName: "Shen",
-    image: "/images/directors/darren.jpg",
-    linkedin: "https://www.linkedin.com/in/darrenshen-ucb/"
+    image: "/images/directors/darren.jpeg",
+    linkedin: "https://www.linkedin.com/in/darrenshen-ucb/",
   },
   {
     firstName: "Diya",
     lastName: "Vij",
-    image: "/images/directors/diya.jpg",
-    linkedin: "https://www.linkedin.com/in/diya-vij-916a30167/"
+    image: "/images/directors/diya.jpeg",
+    linkedin: "https://www.linkedin.com/in/diya-vij-916a30167/",
+  },
+  {
+    firstName: "Dylan",
+    lastName: "Chhumm",
+    image: "/images/directors/dylan.jpeg",
+    linkedin: "https://www.linkedin.com/in/chhum/",
   },
   {
     firstName: "Elisa",
     lastName: "Kong",
-    image: "/images/directors/elisa.png",
-    linkedin: "https://www.linkedin.com/in/elisakong"
+    image: "/images/directors/elisa.jpeg",
+    linkedin: "https://www.linkedin.com/in/elisakong",
   },
   {
-    firstName: "Enya",
-    lastName: "Do",
-    image: "/images/directors/enya.jpg",
-    linkedin: "https://www.linkedin.com/in/enya-do/"
+    firstName: "Eric",
+    lastName: "Cao",
+    image: "/images/directors/eric.jpeg",
+    linkedin: "https://www.linkedin.com/in/eric-cao-8709752b2/",
   },
   {
     firstName: "Ethan",
     lastName: "Tam",
     image: "/images/directors/ethan.jpeg",
-    linkedin: "https://www.linkedin.com/in/ethanmtam"
+    linkedin: "https://www.linkedin.com/in/ethanmtam",
   },
   {
     firstName: "Flora",
     lastName: "Wang",
-    image: "/images/directors/flora.JPG",
-    linkedin: "https://www.linkedin.com/in/florawwang/"
+    image: "/images/directors/flora.jpeg",
+    linkedin: "https://www.linkedin.com/in/florawwang/",
+  },
+  {
+    firstName: "Gary",
+    lastName: "Sun",
+    image: "/images/directors/gary.jpeg",
+    linkedin: "https://www.linkedin.com/in/sun-gary/",
+  },
+  {
+    firstName: "Jasmine",
+    lastName: "Lee",
+    image: "/images/directors/jasmine.jpeg",
+    linkedin: "https://www.linkedin.com/in/jasmine-lee-609174292/",
+  },
+  {
+    firstName: "Jay",
+    lastName: "Chong",
+    image: "/images/directors/jay.jpeg",
+    linkedin: "https://www.linkedin.com/in/jaeyoon-chong/",
+  },
+  {
+    firstName: "Jessenia",
+    lastName: "Chan",
+    image: "/images/directors/jessenia.jpeg",
+    linkedin: "https://www.linkedin.com/in/jesseniachan/",
   },
   {
     firstName: "Jin",
     lastName: "Lee",
-    image: "/images/directors/jin.jpg",
-    linkedin: "https://www.linkedin.com/in/jinyl/"
+    image: "/images/directors/jin.jpeg",
+    linkedin: "https://www.linkedin.com/in/jinyl/",
   },
   {
     firstName: "Justin",
     lastName: "Wong",
-    image: "/images/directors/justin.jpg",
-    linkedin: "https://www.linkedin.com/in/jwonghelloworld/"
+    image: "/images/directors/justin-cubstart.jpeg",
+    linkedin: "https://www.linkedin.com/in/jwonghelloworld/",
+  },
+  {
+    firstName: "Justin",
+    lastName: "Zhang",
+    image: "/images/directors/justin-tech.jpeg",
+    linkedin: "https://www.linkedin.com/in/justin-zhang-ab4a96220/",
+  },
+  {
+    firstName: "Kaden",
+    lastName: "Huang",
+    image: "/images/directors/kaden.jpeg",
+    linkedin: "https://www.linkedin.com/in/kadenhuang/",
   },
   {
     firstName: "Kandra",
     lastName: "Chau",
-    image: "/images/directors/kandra.JPG",
-    linkedin: "https://www.linkedin.com/in/kandra-c-489443218/"
+    image: "/images/directors/kandra.jpeg",
+    linkedin: "https://www.linkedin.com/in/kandra-c-489443218/",
   },
   {
     firstName: "Kaylene",
     lastName: "Son",
-    image: "/images/directors/kaylene.jpg",
-    linkedin: "https://www.linkedin.com/in/kaylene-son/"
+    image: "/images/directors/kaylene.jpeg",
+    linkedin: "https://www.linkedin.com/in/kaylene-son/",
+  },
+  {
+    firstName: "Kelly",
+    lastName: "Yang",
+    image: "/images/directors/kelly.jpeg",
+    linkedin: "https://www.linkedin.com/in/kelly-yang-498740215/",
   },
   {
     firstName: "Kenny",
     lastName: "Zhang",
-    image: "/images/directors/kenny.jpg",
-    linkedin: "https://www.linkedin.com/in/kenny-zhang-jinlin/"
+    image: "/images/directors/kenny.jpeg",
+    linkedin: "https://www.linkedin.com/in/kenny-zhang-jinlin/",
+  },
+  {
+    firstName: "Kiana",
+    lastName: "Yissini",
+    image: "/images/directors/kiana.jpeg",
+    linkedin: "https://www.linkedin.com/in/kiana-y-97778b302/",
   },
   {
     firstName: "Mei",
     lastName: "Cibulka",
-    image: "/images/directors/mei.jpg",
-    linkedin: "https://www.linkedin.com/in/amelie-cibulka"
+    image: "/images/directors/mei.jpeg",
+    linkedin: "https://www.linkedin.com/in/amelie-cibulka",
   },
   {
     firstName: "Mihir",
     lastName: "Putcha",
-    image: "/images/directors/mihir.JPG",
-    linkedin: "https://www.linkedin.com/in/mihir-putcha"
+    image: "/images/directors/mihir.jpeg",
+    linkedin: "https://www.linkedin.com/in/mihir-putcha",
   },
   {
     firstName: "Morgan",
     lastName: "Fung",
-    image: "/images/directors/morgan.jpg",
-    linkedin: "https://www.linkedin.com/in/morgan-fung"
+    image: "/images/directors/morgan.jpeg",
+    linkedin: "https://www.linkedin.com/in/morgan-fung",
   },
   {
     firstName: "Nathan",
     lastName: "Rhee",
-    image: "/images/directors/nathan.jpg",
-    linkedin: "https://www.linkedin.com/in/nathan-rhee-016103234/"
+    image: "/images/directors/nathan.jpeg",
+    linkedin: "https://www.linkedin.com/in/nathan-rhee-016103234/",
+  },
+  {
+    firstName: "Neha",
+    lastName: "Gopal",
+    image: "/images/directors/neha.jpeg",
+    linkedin: "https://www.linkedin.com/in/neha-gopal-11928a32a/",
   },
   {
     firstName: "Nicole",
     lastName: "Lee",
-    image: "/images/directors/nicole-freshman.jpg",
-    linkedin: "https://www.linkedin.com/in/nicolehylee/"
+    image: "/images/directors/nicole-freshman.jpeg",
+    linkedin: "https://www.linkedin.com/in/nicolehylee/",
   },
   {
     firstName: "Nicole",
     lastName: "Lee",
-    image: "/images/directors/nicole-sophomore.jpg",
-    linkedin: "https://www.linkedin.com/in/nicolelee7887"
+    image: "/images/directors/nicole-sophomore.jpeg",
+    linkedin: "https://www.linkedin.com/in/nicolelee7887",
   },
   {
     firstName: "Paarin",
     lastName: "Rastogi",
-    image: "/images/directors/paarin.jpg",
-    linkedin: "https://www.linkedin.com/in/paarin-rastogi-77779824a/"
+    image: "/images/directors/paarin.jpeg",
+    linkedin: "https://www.linkedin.com/in/paarin-rastogi-77779824a/",
   },
   {
     firstName: "Pranav",
     lastName: "Prabhuram",
-    image: "/images/directors/pranav.jpg",
-    linkedin: "https://www.linkedin.com/in/pranav-prabhuram-48b15a23a/"
+    image: "/images/directors/pranav.jpeg",
+    linkedin: "https://www.linkedin.com/in/pranav-prabhuram-48b15a23a/",
   },
   {
     firstName: "Rachael",
     lastName: "Chen",
-    image: "/images/directors/rachael.JPG",
-    linkedin: "https://www.linkedin.com/in/rachael-chen-2b91a32b0/"
+    image: "/images/directors/rachael.jpeg",
+    linkedin: "https://www.linkedin.com/in/rachael-chen-2b91a32b0/",
+  },
+  {
+    firstName: "Rodin",
+    lastName: "Luo",
+    image: "/images/directors/rodin.jpeg",
+    linkedin: "https://www.linkedin.com/in/dan-luo-4109a9383/",
   },
   {
     firstName: "Sam",
     lastName: "Nesheiwat",
-    image: "/images/directors/sam-nesheiwat.jpg",
-    linkedin: "https://www.linkedin.com/in/samantha-nesheiwat-9b0493298/"
+    image: "/images/directors/sam-nesheiwat.jpeg",
+    linkedin: "https://www.linkedin.com/in/samantha-nesheiwat-9b0493298/",
   },
   {
     firstName: "Sam",
     lastName: "Poder",
-    image: "/images/directors/sam-poder.jpg",
-    linkedin: "https://www.linkedin.com/in/sam-poder/"
+    image: "/images/directors/sam-exec.jpeg",
+    linkedin: "https://www.linkedin.com/in/sam-poder/",
   },
   {
     firstName: "Shauna",
     lastName: "Hong",
-    image: "/images/directors/shauna.JPG",
-    linkedin: "https://linkedin.com/in/shauna-seoyoun-hong"
+    image: "/images/directors/shauna.jpeg",
+    linkedin: "https://linkedin.com/in/shauna-seoyoun-hong",
   },
   {
     firstName: "Shreya",
     lastName: "Korlipara",
-    image: "/images/directors/shreya.JPG",
-    linkedin: "https://www.linkedin.com/in/shreya-korlipara/"
+    image: "/images/directors/shreya.jpeg",
+    linkedin: "https://www.linkedin.com/in/shreya-korlipara/",
+  },
+  {
+    firstName: "Sumin",
+    lastName: "Cho",
+    image: "/images/directors/sumin.jpeg",
+    linkedin: "https://www.linkedin.com/in/sumin-cho-82aa61379/",
   },
   {
     firstName: "Valerie",
     lastName: "He",
-    image: "/images/directors/valerie.jpg",
-    linkedin: "https://www.linkedin.com/in/valeriehe/"
+    image: "/images/directors/valerie.jpeg",
+    linkedin: "https://www.linkedin.com/in/valeriehe/",
+  },
+  {
+    firstName: "Victor",
+    lastName: "Pham",
+    image: "/images/directors/victor.jpeg",
+    linkedin: "https://www.linkedin.com/in/victpham/",
   },
   {
     firstName: "Wallace",
     lastName: "Tang",
-    image: "/images/directors/wallace.jpg",
-    linkedin: "https://www.linkedin.com/in/wallacelhtang/"
-  }
+    image: "/images/directors/wallace.jpeg",
+    linkedin: "https://www.linkedin.com/in/wallacelhtang/",
+  },
 ];

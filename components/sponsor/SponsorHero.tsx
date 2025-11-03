@@ -48,7 +48,7 @@ export function SponsorHero() {
           <h4 className="flex flex-col sm:flex-row gap-1 sm:gap-2 text-lg sm:text-xl font-bold text-primary items-center sm:items-start">
             <span>Our next event is in</span>
             <div className="text-blue-600 dark:text-blue-400 hover:underline">
-              October 2025!
+              June 2026!
             </div>
           </h4>
 
