@@ -12,7 +12,7 @@ export const alum: Company[] = [
         link: "https://google.com",
         image: {
             id: "google",
-            src: "https://iili.io/HY6ZF8g.png",
+            src: require("@/assets/images/alum-logos/google.png"),
             alt: "google",
             width: 120,
             height: 60,
@@ -23,7 +23,7 @@ export const alum: Company[] = [
         link: "https://amazon.com",
         image: {
             id: "amazon",
-            src: "https://iili.io/HY6pdv9.png",
+            src: require("@/assets/images/alum-logos/amazon.png"),
             alt: "amazon",
             width: 120,
             height: 60,
@@ -34,7 +34,7 @@ export const alum: Company[] = [
         link: "https://citadel.com",
         image: {
             id: "citadel",
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Citadel_LLC_Logo.svg/2560px-Citadel_LLC_Logo.svg.png",
+            src: require("@/assets/images/alum-logos/citadel.png"),
             alt: "citadel",
             width: 120,
             height: 60,
@@ -45,7 +45,7 @@ export const alum: Company[] = [
         link: "https://twitch.tv",
         image: {
             id: "twitch",
-            src: "https://iili.io/HY6ZucX.png",
+            src: require("@/assets/images/alum-logos/twitch.png"),
             alt: "twitch",
             width: 120,
             height: 60,
@@ -56,7 +56,7 @@ export const alum: Company[] = [
         link: "https://apple.com",
         image: {
             id: "apple",
-            src: "https://iili.io/HY6ZwDx.png",
+            src: require("@/assets/images/alum-logos/apple.png"),
             alt: "apple",
             width: 120,
             height: 60,
@@ -67,7 +67,7 @@ export const alum: Company[] = [
         link: "https://hudsonrivertrading.com",
         image: {
             id: "hrt",
-            src: "https://iili.io/HY6DXZx.png",
+            src: require("@/assets/images/alum-logos/hrt.png"),
             alt: "hrt",
             width: 120,
             height: 60,
@@ -78,7 +78,7 @@ export const alum: Company[] = [
         link: "https://meta.com",
         image: {
             id: "meta",
-            src: "https://iili.io/HY6m7gS.png",
+            src: require("@/assets/images/alum-logos/meta.png"),
             alt: "meta",
             width: 120,
             height: 60,
@@ -89,7 +89,7 @@ export const alum: Company[] = [
         link: "https://figma.com",
         image: {
             id: "figma",
-            src: "https://iili.io/HY6yOxa.png",
+            src: require("@/assets/images/alum-logos/figma.png"),
             alt: "figma",
             width: 120,
             height: 60,
@@ -100,7 +100,7 @@ export const alum: Company[] = [
         link: "https://plaid.com",
         image: {
             id: "plaid",
-            src: "https://iili.io/HYPF51s.png",
+            src: require("@/assets/images/alum-logos/plaid.png"),
             alt: "plaid",
             width: 120,
             height: 60,
@@ -111,7 +111,7 @@ export const alum: Company[] = [
         link: "https://github.com",
         image: {
             id: "github",
-            src: "https://iili.io/HYPKCGe.png",
+            src: require("@/assets/images/alum-logos/github.png"),
             alt: "github",
             width: 120,
             height: 60,
@@ -122,7 +122,7 @@ export const alum: Company[] = [
         link: "https://waymo.com",
         image: {
             id: "waymo",
-            src: "https://iili.io/HYP9ep9.png",
+            src: require("@/assets/images/alum-logos/waymo.png"),
             alt: "waymo",
             width: 120,
             height: 60,
@@ -133,7 +133,7 @@ export const alum: Company[] = [
         link: "https://roblox.com",
         image: {
             id: "roblox",
-            src: "https://iili.io/HY6ypJS.png",
+            src: require("@/assets/images/alum-logos/roblox.png"),
             alt: "roblox",
             width: 120,
             height: 60,
@@ -144,7 +144,7 @@ export const alum: Company[] = [
         link: "https://uber.com",
         image: {
             id: "uber",
-            src: "https://iili.io/HYP9oe1.png",
+            src: require("@/assets/images/alum-logos/uber.png"),
             alt: "uber",
             width: 120,
             height: 60,
@@ -155,7 +155,7 @@ export const alum: Company[] = [
         link: "https://salesforce.com",
         image: {
             id: "salesforce",
-            src: "https://iili.io/HYPHbA7.png",
+            src: require("@/assets/images/alum-logos/salesforce.png"),
             alt: "salesforce",
             width: 120,
             height: 60,
@@ -166,7 +166,7 @@ export const alum: Company[] = [
         link: "https://imc.com",
         image: {
             id: "imc",
-            src: "https://iili.io/HYP2CGa.png",
+            src: require("@/assets/images/alum-logos/imc.png"),
             alt: "imc",
             width: 120,
             height: 60,
