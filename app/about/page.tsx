@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { directors } from "@/data/directors";
+import { directors, teamLabels, roleLabels } from "@/data/directors";
 import { useTheme } from "next-themes";
 import { alum } from "@/data/alum";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -83,6 +83,26 @@ export default function About() {
                           <FaLinkedin className="text-[#0077b5] ml-1" />
                         )}
                       </a>
+                      <div className="mt-2 flex flex-wrap justify-center gap-1">
+                        {Object.entries(
+                          director.positions.reduce<Record<string, string[]>>(
+                            (acc, position) => {
+                              const key = position.type ?? "";
+                              (acc[key] ??= []).push(teamLabels[position.team]);
+                              return acc;
+                            },
+                            {},
+                          ),
+                        ).map(([type, teams]) => (
+                          <span
+                            key={type}
+                            className="rounded-full bg-primary/10 dark:bg-primary/20 px-2 py-0.5 text-xs font-medium text-primary dark:text-primary/90"
+                          >
+                            {teams.join(" & ")}
+                            {type && ` · ${roleLabels[type as keyof typeof roleLabels]}`}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   );
                 })}
