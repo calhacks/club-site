@@ -380,6 +380,6 @@ export const directors: Director[] = [
     lastName: "Cui",
     image: "/images/directors/yutong.jpg",
     linkedin: "https://www.linkedin.com/in/yutong-cui212/",
-    positions: [{ team: "tech", type: "director" }],
+    positions: [{ team: "design", type: "director" }],
   },
 ];
