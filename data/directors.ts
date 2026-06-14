@@ -25,7 +25,7 @@ export interface Director {
 }
 
 export const teamLabels: Record<Team, string> = {
-  exec: "Exec",
+  exec: "Executive Director",
   cubstart: "Cubstart",
   design: "Design",
   finance: "Finance",
@@ -40,6 +40,18 @@ export const roleLabels: Record<Role, string> = {
   lead: "Lead",
   director: "Director",
 };
+
+export const teamOrder: Team[] = [
+  "exec",
+  "cubstart",
+  "design",
+  "finance",
+  "hei",
+  "logistics",
+  "marketing",
+  "sponsorship",
+  "tech",
+];
 
 export const directors: Director[] = [
   {

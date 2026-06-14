@@ -1,7 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { directors, teamLabels, roleLabels } from "@/data/directors";
+import { useState } from "react";
+import {
+  directors,
+  teamLabels,
+  roleLabels,
+  teamOrder,
+  type Team,
+} from "@/data/directors";
 import { useTheme } from "next-themes";
 import { alum } from "@/data/alum";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -11,6 +18,25 @@ import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 
 export default function About() {
   const { theme, setTheme } = useTheme();
+  const [activeTeam, setActiveTeam] = useState<Team | null>(null);
+
+  const roleRank = (director: (typeof directors)[number]) => {
+    if (activeTeam === null) return 0;
+    const position = director.positions.find((p) => p.team === activeTeam);
+    return position?.type === "lead" ? 0 : 1;
+  };
+
+  const visibleDirectors = directors
+    .filter(
+      (director) =>
+        activeTeam === null ||
+        director.positions.some((position) => position.team === activeTeam),
+    )
+    .sort(
+      (a, b) =>
+        roleRank(a) - roleRank(b) ||
+        a.firstName.localeCompare(b.firstName),
+    );
 
   return (
     <DefaultLayout>
@@ -52,13 +78,36 @@ export default function About() {
         {/* Team Section */}
         <section className="py-20 px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-white">
+            <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
               Our Team
             </h2>
+            <div className="mb-12 flex flex-wrap justify-center gap-2">
+              <button
+                onClick={() => setActiveTeam(null)}
+                className={`rounded-full border px-4 py-1.5 text-sm font-medium transition-colors ${
+                  activeTeam === null
+                    ? "bg-primary text-white border-primary"
+                    : "border-gray-300 text-gray-700 hover:border-primary hover:text-primary dark:border-gray-600 dark:text-gray-300"
+                }`}
+              >
+                All
+              </button>
+              {teamOrder.map((team) => (
+                <button
+                  key={team}
+                  onClick={() => setActiveTeam(team)}
+                  className={`rounded-full border px-4 py-1.5 text-sm font-medium transition-colors ${
+                    activeTeam === team
+                      ? "bg-primary text-white border-primary"
+                      : "border-gray-300 text-gray-700 hover:border-primary hover:text-primary dark:border-gray-600 dark:text-gray-300"
+                  }`}
+                >
+                  {teamLabels[team]}
+                </button>
+              ))}
+            </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
-              {directors
-                .sort((a, b) => a.firstName.localeCompare(b.firstName))
-                .map((director, index) => {
+              {visibleDirectors.map((director, index) => {
                   return (
                     <div key={index} className="flex flex-col items-center">
                       <Avatar className="w-32 h-32 md:w-48 md:h-48 border-2 border-primary/20 mb-3">
@@ -96,7 +145,7 @@ export default function About() {
                         ).map(([type, teams]) => (
                           <span
                             key={type}
-                            className="rounded-full bg-primary/10 dark:bg-primary/20 px-2 py-0.5 text-xs font-medium text-primary dark:text-primary/90"
+                            className="whitespace-nowrap rounded-full bg-primary/10 dark:bg-primary/20 px-2 py-0.5 text-xs font-medium text-primary dark:text-primary/90"
                           >
                             {teams.join(" & ")}
                             {type && ` · ${roleLabels[type as keyof typeof roleLabels]}`}
