@@ -217,7 +217,7 @@ export const directors: Director[] = [
     lastName: "Rhee",
     image: "/images/directors/nathan.jpg",
     linkedin: "https://www.linkedin.com/in/nathan-rhee-016103234/",
-    positions: [{ team: "sponsorship", type: "exec" }],
+    positions: [{ type: "exec" }],
   },
   {
     firstName: "Neha",
