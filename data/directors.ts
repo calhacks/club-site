@@ -4,6 +4,7 @@ export type Team =
   | "design"
   | "finance"
   | "hei"
+  | "internal"
   | "logistics"
   | "marketing"
   | "sponsorship"
@@ -30,6 +31,7 @@ export const teamLabels: Record<Team, string> = {
   design: "Design",
   finance: "Finance",
   hei: "HEI",
+  internal: "Internal",
   logistics: "Logistics",
   marketing: "Marketing",
   sponsorship: "Sponsorship",
@@ -47,6 +49,7 @@ export const teamOrder: Team[] = [
   "design",
   "finance",
   "hei",
+  "internal",
   "logistics",
   "marketing",
   "sponsorship",
@@ -59,7 +62,7 @@ export const directors: Director[] = [
     lastName: "Li",
     image: "/images/directors/abby.jpg",
     linkedin: "https://www.linkedin.com/in/abby-li-70538416b/",
-    positions: [{ team: "cubstart", type: "director" }],
+    positions: [{ team: "cubstart", type: "lead" }],
   },
   {
     firstName: "Allison",
@@ -83,42 +86,25 @@ export const directors: Director[] = [
     positions: [{ team: "exec" }],
   },
   {
-    firstName: "Christopher",
-    lastName: "Blu Lopez",
-    image: "/images/directors/chris.jpg",
-    linkedin: "https://www.linkedin.com/in/christopher-blu-lopez/",
-    positions: [
-      { team: "marketing", type: "director" },
-      { team: "hei", type: "director" },
-    ],
-  },
-  {
-    firstName: "Christy",
-    lastName: "Huang",
-    image: "/images/directors/christy.jpg",
-    linkedin: "https://www.linkedin.com/in/christyhuanggg/",
-    positions: [{ team: "finance", type: "lead" }],
-  },
-  {
     firstName: "Collin",
     lastName: "Hargreaves",
     image: "/images/directors/collin.jpg",
     linkedin: "https://www.linkedin.com/in/collinj-hargreaves/",
-    positions: [{ team: "sponsorship", type: "director" }],
+    positions: [{ team: "internal", type: "director" }],
   },
   {
     firstName: "Edward",
     lastName: "Kim",
     image: "/images/directors/edward.jpg",
     linkedin: "https://www.linkedin.com/in/eedwardkim/",
-    positions: [{ team: "marketing", type: "director" }],
+    positions: [{ team: "marketing", type: "lead" }],
   },
   {
     firstName: "Eric",
     lastName: "Cao",
     image: "/images/directors/eric.jpg",
     linkedin: "https://www.linkedin.com/in/eric-cao-8709752b2/",
-    positions: [{ team: "tech", type: "director" }],
+    positions: [{ team: "tech", type: "lead" }],
   },
   {
     firstName: "Gary",
@@ -133,13 +119,6 @@ export const directors: Director[] = [
     image: "/images/directors/jane.jpg",
     linkedin: "https://www.linkedin.com/in/jane-d-3ba4aa221/",
     positions: [{ team: "sponsorship", type: "director" }],
-  },
-  {
-    firstName: "Jasmine",
-    lastName: "Lee",
-    image: "/images/directors/jasmine.jpg",
-    linkedin: "https://www.linkedin.com/in/jasmineclee/",
-    positions: [{ team: "design", type: "lead" }],
   },
   {
     firstName: "Javin",
@@ -160,7 +139,7 @@ export const directors: Director[] = [
     lastName: "Gong",
     image: "/images/directors/jeffrey.jpg",
     linkedin: "https://www.linkedin.com/in/jeffreygongla/",
-    positions: [{ team: "finance", type: "director" }],
+    positions: [{ team: "finance", type: "lead" }],
   },
   {
     firstName: "Jessenia",
@@ -178,13 +157,6 @@ export const directors: Director[] = [
   },
   {
     firstName: "Justin",
-    lastName: "Wong",
-    image: "/images/directors/justinw.jpg",
-    linkedin: "https://www.linkedin.com/in/jwonghelloworld/",
-    positions: [{ team: "cubstart", type: "lead" }],
-  },
-  {
-    firstName: "Justin",
     lastName: "Zhang",
     image: "/images/directors/justinz.jpg",
     linkedin: "https://www.linkedin.com/in/justin-zhang-ab4a96220/",
@@ -196,16 +168,7 @@ export const directors: Director[] = [
     image: "/images/directors/kaden.jpg",
     linkedin: "https://www.linkedin.com/in/kadenhuang/",
     positions: [
-      { team: "marketing", type: "director" },
-      { team: "sponsorship", type: "director" },
-    ],
-  },
-  {
-    firstName: "Kandra",
-    lastName: "Chau",
-    image: "/images/directors/kandra.jpg",
-    linkedin: "https://www.linkedin.com/in/kandrachau/",
-    positions: [{ team: "marketing", type: "lead" }],
+      { team: "sponsorship", type: "lead" },],
   },
   {
     firstName: "Kelly",
@@ -233,20 +196,13 @@ export const directors: Director[] = [
     lastName: "Xiao",
     image: "/images/directors/lanna.jpg",
     linkedin: "https://www.linkedin.com/in/lanna-xiao-b38a3331b/",
-    positions: [{ team: "design", type: "director" }],
+    positions: [{ team: "design", type: "lead" }],
   },
   {
     firstName: "Mauricio",
     lastName: "Yeverino Penunuri",
     image: "/images/directors/mauricio.jpg",
     linkedin: "https://www.linkedin.com/in/myeverino2003/",
-    positions: [{ team: "cubstart", type: "director" }],
-  },
-  {
-    firstName: "Mei",
-    lastName: "Cibulka",
-    image: "/images/directors/mei.jpg",
-    linkedin: "https://www.linkedin.com/in/amelie-cibulka/",
     positions: [{ team: "cubstart", type: "lead" }],
   },
   {
@@ -261,7 +217,7 @@ export const directors: Director[] = [
     lastName: "Rhee",
     image: "/images/directors/nathan.jpg",
     linkedin: "https://www.linkedin.com/in/nathan-rhee-016103234/",
-    positions: [{ team: "sponsorship", type: "lead" }],
+    positions: [{ team: "sponsorship", type: "exec" }],
   },
   {
     firstName: "Neha",
@@ -275,28 +231,21 @@ export const directors: Director[] = [
     lastName: "Lee",
     image: "/images/directors/nicolesoph.jpg",
     linkedin: "https://www.linkedin.com/in/nicolehylee/",
-    positions: [{ team: "sponsorship", type: "director" }],
+    positions: [{ team: "internal", type: "director" }],
   },
   {
     firstName: "Nicole",
     lastName: "Lee",
     image: "/images/directors/nicoleleejr.jpg",
     linkedin: "https://www.linkedin.com/in/nicolelee7887/",
-    positions: [{ team: "tech", type: "lead" }],
-  },
-  {
-    firstName: "Paarin",
-    lastName: "Rastogi",
-    image: "/images/directors/paarin.jpg",
-    linkedin: "https://www.linkedin.com/in/paarin-rastogi/",
-    positions: [{ team: "finance", type: "director" }],
+    positions: [{ team: "tech", type: "director" }],
   },
   {
     firstName: "Rodin",
     lastName: "Luo",
     image: "/images/directors/rodin.jpg",
     linkedin: "https://www.linkedin.com/in/dan-luo-4109a9383/",
-    positions: [{ team: "marketing", type: "director" }],
+    positions: [{ team: "marketing", type: "lead" }],
   },
   {
     firstName: "Rosy",
@@ -311,13 +260,6 @@ export const directors: Director[] = [
     image: "/images/directors/shahene.jpeg",
     linkedin: "https://www.linkedin.com/in/shahene-chaouachi/",
     positions: [{ team: "sponsorship", type: "director" }],
-  },
-  {
-    firstName: "Shreya",
-    lastName: "Korlipara",
-    image: "/images/directors/shreya.jpg",
-    linkedin: "https://www.linkedin.com/in/shreya-korlipara/",
-    positions: [{ team: "hei", type: "director" }],
   },
   {
     firstName: "Sophia",
@@ -352,7 +294,7 @@ export const directors: Director[] = [
     lastName: "Nguyen",
     image: "/images/directors/trinity.jpg",
     linkedin: "https://www.linkedin.com/in/trinity-nguyen-063334361/",
-    positions: [{ team: "design", type: "director" }],
+    positions: [{ team: "design", type: "lead" }],
   },
   {
     firstName: "Victor",
@@ -366,7 +308,7 @@ export const directors: Director[] = [
     lastName: "Pham",
     image: "/images/directors/victorp.jpg",
     linkedin: "https://www.linkedin.com/in/victpham/",
-    positions: [{ team: "design", type: "lead" }],
+    positions: [{ team: "design", type: "director" }],
   },
   {
     firstName: "Wallace",
