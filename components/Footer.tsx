@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaFacebook, FaTwitter, FaInstagram, FaGithub, FaDiscord } from 'react-icons/fa'
+import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa'
 
 export function Footer() {
   return (
@@ -34,9 +34,6 @@ export function Footer() {
                   </a>
                   <a href="https://github.com/calhacks" target="_blank" rel="noopener noreferrer" className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-all hover:scale-110">
                     <FaGithub size={20} className="text-white" />
-                  </a>
-                  <a href="https://discord.gg/calhacks" target="_blank" rel="noopener noreferrer" className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-all hover:scale-110">
-                    <FaDiscord size={20} className="text-white" />
                   </a>
                 </div>
               </div>
