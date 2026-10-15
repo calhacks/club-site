@@ -2,7 +2,17 @@
   "redirects": [
     {
       "source": "/slack",
-      "destination": "https://join.slack.com/t/ai-hackathon-2026-hq/shared_invite/zt-407agvgcy-D0ynSBLzNUboORwueqOplw",
+      "destination": "https://join.slack.com/t/cal-hacks-13-0/shared_invite/zt-4ct1od16r-R9UkSsiKwCImfmq~MvZSfg",
+      "permanent": false
+    },
+    {
+      "source": "/devpost",
+      "destination": "http://cal-hacks-13-0.devpost.com/",
+      "permanent": false
+    },
+    {
+      "source": "/hackerguide",
+      "destination": "https://docs.google.com/document/d/1RQrueC9wm5u8uxtWSC2gadIchp05hVayhGUrIjxT9dE/edit?usp=sharing",
       "permanent": false
     },
     {
